@@ -19,7 +19,8 @@
 		"prepublishOnly": "npm run package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"prepare": "npm run build"
 	},
 	"exports": {
 		".": {
